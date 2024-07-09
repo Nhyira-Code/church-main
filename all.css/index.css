@@ -1,20 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+    font-size: large;
 }
+.circle{
+    background-image: url("../img/91002395.jpg");
+    width: 100em;
+    height: 100em;
+}
+.p1 {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text{
+   font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-header {
-    background-color: #13fff3;
-    color: #0e0101;
+}
+ header {
+    background-color: #0abf40;
+    color: #FFFFFF;
     padding: 20px;
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
+article{
+    background-color: rgb(238, 248, 248);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: #000000;
+}
+
 
 header h1 {
     font-size: 36px;
+    text-align: center;
 }
 head h1 {list-style-type: none;
     margin: 0;
@@ -31,13 +55,19 @@ nav ul {
     display: flex;
     
 }
+.circle{
+    background-image: url("../img/nice\ copy.jpg");
+    background-size: cover;
+    width: 100em;
+    height: 500px;
+}
 
 nav li {
     margin-right: 20px;
 }
 
 nav a {
-    color: #100202;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -45,14 +75,14 @@ nav a:hover {
     color: #ef0924;
 }
 
-main {
+/* main {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 section {
-    background-color: #f7f7f7;
+   
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: rgba(0,0,0,0.1) 0px 1px 3px;
@@ -117,4 +147,29 @@ footer
         color: hsl(0, 23%, 91%);
         text-decoration: none;
     }
-    
+    .card {
+        background-color:#FFFFFF;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 30px;
+      }
+      
+      .card-header {
+        background-color: #0abf40;
+        color: #FFFFFF;
+        padding: 10px;
+      }
+      
+      .card-body {
+        padding: 20px;
+      }
+      
+      ul {
+        list-style-type: none;
+      }
+      .cards{
+        display: flex ;
+        
+        
+      }
