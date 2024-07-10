@@ -5,12 +5,15 @@
     display: left;
     
 }
- 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  } 
+ table, th, tr, td,caption{
+  border: 1px solid #0abf40;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  padding: 1rem;
+  outline: 5px solid #0abf40;
+ }
+
   
   body {
     font-family: Arial, sans-serif;
@@ -18,12 +21,17 @@
     color: #333;
     background-color: #f9f9f9;
   }
+  header h1{
+    color: aliceblue;
+  }
   
   header {
-    background-color: #333;
+    display: flex;
+    background-color: #0abf40;
     color: #fff;
-    padding: 1em;
+    padding: 3em;
     text-align: center;
+    justify-content: space-between;
   }
   nav a:hover {
     color: #ef0924;
@@ -42,12 +50,18 @@
   nav a {
     color: #fff;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+
   }
   
-  nav a:hover {
-    color: #ccc;
-  }
-  
+  .circle {
+    background-image: url(../img/worship.jpg );
+    background-size: cover;
+   height: 30em; 
+    background-repeat: round;
+   
+    }
   .services-section {
     max-width: 800px;
     margin: 40px auto;
@@ -56,6 +70,11 @@
   .services-section h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: center;
+    font-family: "cursive";
+    background-color: #0abf40;
+    width: 150px;
+    color: aliceblue;
   }
   
   .services-section ul {
@@ -81,4 +100,38 @@
     color: #fff;
     padding: 1em;
     text-align: center;
+  }
+
+
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(14, 33, 11, 0.1);
+  }
+  
+  
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    
+    color: #0abf40;
+    font-family: cursive;
+    
+  }
+  
+  .card-time {
+    font-size: 18px;
+  }
+  .all {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ccc;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin: 100px;
   }
