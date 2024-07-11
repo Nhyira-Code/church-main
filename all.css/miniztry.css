@@ -1,9 +1,72 @@
 /* styles.css */
+header {
+    background-color: #0abf40;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+ 
+    
+} 
+head{
+    justify-content: space-between;
+    display: flex;
+}
+.circle{
+    background-image: url('../img/WhatsApp\ Image\ 2024-07-10\ at\ 05.29.47_c6a54733.jpg ');
+    background-size: cover;
+    height: 40em; 
+    background-repeat: round;
+}
 .ministry-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     margin: 20px;
+}
+.child{
+    background-image:url('/img/WhatsApp\ Image\ 2024-07-11\ at\ 05.31.40_8c71bc61.jpg') ;
+    background-size: cover;
+    height: 30em; 
+    background-repeat: round;
+}
+.youth{
+    background-image:url('../img/WhatsApp\ Image\ 2024-07-11\ at\ 06.28.54_0ff3e80f.jpg') ;
+    background-size: cover;
+    height: 30em; 
+    background-repeat: round;
+}
+.mission{
+    background-image:url('/img/WhatsApp\ Image\ 2024-07-11\ at\ 06.51.33_67b8782e.jpg') ;
+    background-size: cover;
+    height: 30em; 
+    background-repeat: round;
+}
+.music{
+    background-image:url('../img/WhatsApp\ Image\ 2024-07-11\ at\ 06.50.06_13129a8c.jpg') ;
+    background-size: cover;
+    height: 30em; 
+    background-repeat: round;
+}
+.women{
+    background-image:url('/img/WhatsApp\ Image\ 2024-07-11\ at\ 06.53.20_1271bfdb.jpg') ;
+    background-size: cover;
+    height: 30em; 
+    background-repeat: round;
+}
+.men {
+    background-image:url('/img/WhatsApp\ Image\ 2024-07-11\ at\ 06.31.17_9a9d3a91.jpg') ;
+    background-size: cover;
+    height: 30em; 
+    background-repeat: round;
 }
 
 .ministry-card {
@@ -23,11 +86,38 @@
 .ministry-card p {
     margin-bottom: 20px;
 }
-nav a:hover {
+ a:hover {
     color: #ef0924;
 }
 .ministry-card a {
     color: #337ab7;
     text-decoration: none;
     
+}footer {
+    background-color :#333333; 
+    color :#FFFFFF; 
+    text-align:center; 
+    padding-top :10px; 
+    padding-bottom :10px; 
+
 }
+footer
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        
+    }
+    footer nav ul{
+        
+        color: hwb(0 100% 0%);
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+     footer  nav a {
+        color: hsl(0, 23%, 91%);
+        text-decoration: none;
+    }

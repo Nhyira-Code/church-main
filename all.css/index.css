@@ -42,10 +42,10 @@ nav ul {
     
 }
 .circle{
-    background-image: url("../img/nice\ copy.jpg");
+    background-image: url("/img/WhatsApp\ Image\ 2024-07-09\ at\ 05.39.55_da673c5a.jpg ");
     background-size: cover;
-    width: 100em;
-    height: 500px;
+    height: 40em; 
+    background-repeat: round;
 }
 
 nav li {
@@ -96,8 +96,8 @@ footer
         text-align: center;
         display: flex;
         justify-content: space-between;
-    } footer   
-    nav a {
+    }
+     footer  nav a {
         color: hsl(0, 23%, 91%);
         text-decoration: none;
     }

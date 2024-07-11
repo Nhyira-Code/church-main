@@ -4,9 +4,10 @@
     padding: 0;
   } */
   .circle{
-    background-image: url("../img/nice\ copy.jpg");
-    width: 100em;
-    height: 500px;
+    background-image: url("/img/WhatsApp\ Image\ 2024-07-09\ at\ 05.39.55_da673c5a.jpg ");
+    background-size: cover;
+    height: 40em; 
+    background-repeat: round;
   }
   body {
     font-family: Arial, sans-serif;
